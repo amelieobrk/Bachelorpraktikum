@@ -1,0 +1,18 @@
+build-job:
+  stage: build
+  script:
+    - echo "Building..."
+    - npm i
+    - npm run build
+
+deploy-dev:
+  stage: deploy
+  script:
+    - npm i
+    - npm run build
+    - rm -r /home/defi/frontend/*
+    - cp -r build/* /home/defi/frontend/
+  only:
+    - master
+    - develop
+    - feature/login

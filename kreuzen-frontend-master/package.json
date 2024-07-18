@@ -1,0 +1,77 @@
+{
+  "name": "kreuzen-frontend",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@fortawesome/fontawesome-free": "^5.15.2",
+    "@types/bootstrap": "^5.0.0",
+    "@types/js-cookie": "^2.2.6",
+    "@types/node": "^12.19.7",
+    "@types/react": "^16.14.2",
+    "@types/react-bootstrap": "^0.32.24",
+    "@types/react-dom": "^16.9.10",
+    "@types/react-router-bootstrap": "^0.24.5",
+    "@types/react-router-dom": "^5.1.6",
+    "@types/styled-components": "^5.1.4",
+    "axios": "^0.21.1",
+    "bootstrap": "^4.5.3",
+    "broadcast-channel": "^3.3.0",
+    "circular": "^1.0.5",
+    "formik": "^2.2.6",
+    "js-cookie": "^2.2.1",
+    "json": "^10.0.0",
+    "node-sass": "^4.0.0",
+    "react": "^17.0.1",
+    "react-bootstrap": "^1.4.0",
+    "react-dom": "^17.0.1",
+    "react-radio-group": "^3.0.3",
+    "react-router-bootstrap": "^0.25.0",
+    "react-router-dom": "^5.2.0",
+    "react-scripts": "4.0.1",
+    "react-spinners": "^0.10.6",
+    "react-toastify": "^6.0.0-rc.3",
+    "styled-components": "^5.2.1",
+    "typescript": "^4.1.2",
+    "web-vitals": "^0.2.4",
+    "yup": "^0.32.8"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --testPathPattern ./src/.*",
+    "eject": "react-scripts eject",
+    "lint": "eslint --ext .ts,.tsx src/ --fix"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ],
+    "parserOptions": {
+      "project": "./tsconfig.json"
+    },
+    "rules": {
+      "linebreak-style": 0
+    }
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "@typescript-eslint/eslint-plugin": "^4.4.1",
+    "eslint-config-airbnb-typescript": "^12.0.0",
+    "eslint-plugin-import": "^2.22.0",
+    "eslint-plugin-jsx-a11y": "^6.3.1",
+    "eslint-plugin-react": "^7.20.3",
+    "eslint-plugin-react-hooks": "^4.0.8"
+  }
+}

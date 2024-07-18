@@ -1,0 +1,11 @@
+## PostgreSQL
+spring.datasource.url=jdbc:postgresql://37.120.161.182:5432/defi
+spring.datasource.username=defi
+spring.datasource.password=
+spring.datasource.hikari.maximum-pool-size=2
+spring.datasource.hikari.max-lifetime=30000
+jwt.key=
+app.base-url=https://www.kreuzenonline.de
+app.smtp.password=
+app.smtp.username=kreuzertest@gmail.com
+app.locale=de_DE

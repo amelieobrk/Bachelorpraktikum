@@ -1,0 +1,11 @@
+// Change default colors
+$theme-colors: (
+        "primary": #223d7b,
+        "secondary": #119DA4,
+        "tertiary": #BFDBF7,
+        "danger": #931621,
+        "success": #119DA4,
+        "warning": #C5D86D
+);
+
+@import "node_modules/bootstrap/scss/bootstrap";
