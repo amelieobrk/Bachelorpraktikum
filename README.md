@@ -1,4 +1,4 @@
-# Altklausuren-Lernportal für den FB Medizin der Goethe Uni
+# Learning portal for the Faculty of Medicine at Goethe University
 
 This repository contains the source code for the "Altklausuren-Lernportal", a learning portal for medical students at the Goethe University, developed to assist with exam preparation by providing access to past exam questions.
 
